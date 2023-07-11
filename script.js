@@ -5,8 +5,9 @@ const options = {
   headers: {
     "X-RapidAPI-Key": "a517037af3msh99f99cb08e434ecp1f6f17jsn951a1c0b3193",
     "X-RapidAPI-Host": "weather-by-api-ninjas.p.rapidapi.com",
-  },
+  } ,
 };
+
 const getWeather = (city)=>{
     cityName.innerHTML=city;
 fetch(url+city, options)
